@@ -1,0 +1,40 @@
+@model IEnumerable<CourseWork.Models.Assignment>
+
+@{
+    ViewData["Title"] = "Мої завдання";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+@if (!Model.Any())
+{
+    <div class="alert alert-info">У вас поки що немає завдань.</div>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Назва</th>
+                <th>Курс</th>
+                <th>Термін</th>
+                <th>Статус</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var a in Model)
+            {
+                <tr>
+                    <td>@a.Title</td>
+                    <td>@(a.Course?.Title ?? "—")</td>
+                    <td>@a.DueDate.ToString("yyyy-MM-dd")</td>
+                    <td>@(a.IsCompleted ? "Виконано" : "Не виконано")</td>
+                    <td>
+                        <a asp-action="Details" asp-route-id="@a.Id" class="btn btn-sm btn-info">Деталі</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

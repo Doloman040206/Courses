@@ -1,0 +1,37 @@
+@model CourseWork.Models.User
+
+@{
+    ViewData["Title"] = "Деталі користувача";
+}
+
+<h2>Деталі користувача</h2>
+
+<div class="table-responsive">
+    <table class="table table-striped">
+        <tr>
+            <td>Ім'я:</td>
+            <td>@Model.FirstName</td>
+        </tr>
+        <tr>
+            <td>По батькові:</td>
+            <td>@Model.MiddleName</td>
+        </tr>
+        <tr>
+            <td>Призвище:</td>
+            <td>@Model.LastName</td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td>@Model.Email</td>
+        </tr>
+        <tr>
+            <td>Роль:</td>
+            <td>@Model.Role.Name</td>
+        </tr>
+    </table>
+</div>
+
+<a asp-controller="User" asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Редагувати</a>
+<a asp-controller="Home" asp-action="Index" class="btn btn-secondary">Назад</a>
+<a asp-controller="User" asp-action="Delete" asp-route-id="@Model.Id" class="btn btn-danger">Видалити</a>
+

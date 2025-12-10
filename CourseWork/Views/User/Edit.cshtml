@@ -1,0 +1,46 @@
+@model CourseWork.Models.User
+
+@{
+    ViewData["Title"] = "Редагувати користувача";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<form method="post" asp-action="Edit" asp-controller="User">
+    @Html.AntiForgeryToken()
+
+    <!-- Додаємо прихований елемент для вказівки PUT методу -->
+    <input type="hidden" name="_method" value="PUT" />
+
+    <div class="form-group">
+        <label for="FirstName">Ім'я</label>
+        <input type="text" class="form-control" id="FirstName" name="FirstName" value="@Model.FirstName" required />
+    </div>
+
+    <div class="form-group">
+        <label for="MiddleName">По-батькові</label>
+        <input type="text" class="form-control" id="MiddleName" name="MiddleName" value="@Model.MiddleName" required />
+    </div>
+
+    <div class="form-group">
+        <label for="LastName">Прізвище</label>
+        <input type="text" class="form-control" id="LastName" name="LastName" value="@Model.LastName" required />
+    </div>
+
+    <div class="form-group">
+        <label for="Email">Email</label>
+        <input type="email" class="form-control" id="Email" name="Email" value="@Model.Email" required />
+    </div>
+    
+    <!-- Роль за замовчуванням - Студент (приховане поле) -->
+    <input type="hidden" asp-for="RoleId" value="1" />
+
+    <button type="submit" class="btn btn-primary">Зберегти зміни</button>
+</form>
+
+@foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+{
+    <div class="alert alert-danger">@error.ErrorMessage</div>
+}
+
+<a href="/User/Details/@Model.Id" class="btn btn-secondary mt-2">Назад</a>

@@ -1,0 +1,33 @@
+@model CourseWork.Models.User
+
+@{
+    ViewData["Title"] = "Видалити користувача";
+}
+
+<h1>Видалити користувача</h1>
+<h3>Ви впевнені, що хочете видалити цього користувача?</h3>
+<div>
+    <h4>Користувач</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">Ім'я:</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.FirstName)</dd>
+
+        <dt class="col-sm-2">Прізвище:</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.LastName)</dd>
+
+        <dt class="col-sm-2">Email:</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Email)</dd>
+
+        <dt class="col-sm-2">Роль:</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Role.Name)</dd>
+    </dl>
+
+    <!-- Формуємо форму для видалення -->
+    <form method="post" action="/User/Delete/@Model.Id" style="display:inline;">
+        @Html.AntiForgeryToken()
+        <input type="hidden" name="_method" value="DELETE" />  <!-- Маска для використання DELETE -->
+        <input type="submit" value="Видалити" class="btn btn-danger" onclick="return confirm('Ви впевнені, що хочете видалити цей профіль?');" /> |
+        <a href="/Home/Index" class="btn btn-secondary">Скасувати</a>
+    </form>
+</div>

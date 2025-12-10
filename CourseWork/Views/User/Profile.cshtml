@@ -1,0 +1,55 @@
+@model CourseWork.Models.User
+
+@{
+    ViewData["Title"] = "Профіль користувача";
+}
+
+<h1 class="text-center">@ViewData["Title"]</h1>
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow-sm">
+                <div class="card-header bg-primary text-white">
+                    <h4 class="mb-0">Інформація про профіль</h4>
+                </div>
+                <div class="card-body">
+                    <div class="mb-3">
+                        <label class="form-label fw-bold">Ім'я:</label>
+                        <p class="form-control-plaintext">@Model.FirstName</p>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label fw-bold">По батькові:</label>
+                        <p class="form-control-plaintext">@Model.MiddleName</p>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label fw-bold">Прізвище:</label>
+                        <p class="form-control-plaintext">@Model.LastName</p>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label fw-bold">Електронна пошта:</label>
+                        <p class="form-control-plaintext">@Model.Email</p>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label fw-bold">Роль:</label>
+                        <p class="form-control-plaintext">@Model.Role.Name</p>
+                    </div>
+                </div>
+                <div class="card-footer text-end">
+                    <a asp-action="EditProfile" asp-route-id="@Model.Id" class="btn btn-warning">Редагувати</a>
+                    <a asp-action="ChangePassword" class="btn btn-secondary">Змінити пароль</a>
+                </div>
+                <h3>Ваші курси:</h3>
+                <ul>
+                    @foreach (var enrollment in Model.Enrollments)
+                    {
+                        <li>@enrollment.Course.Title - <a href="/Course/Details/@enrollment.Course.Id">Переглянути курс</a> <form method="post" asp-controller="Course" asp-action="Unenroll" asp-route-id="@enrollment.Course.Id">
+                                <button type="submit" class="btn btn-danger">Виписатись</button>
+                            </form></li>
+                    }
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</div>

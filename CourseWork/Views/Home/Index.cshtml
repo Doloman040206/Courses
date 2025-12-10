@@ -1,0 +1,49 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Ласкаво просимо!</h1>
+    <p>Досліджуйте курси, навички та кар'єрні можливості на нашій платформі.</p>
+    <h3>Розпочніть своє навчання вже сьогодні!</h3>
+    @if (ViewBag.UserId != null)
+    {
+        <div>
+            <p>Вітаємо, користувач: @ViewBag.UserName!</p>
+            <p>Ваша роль: @ViewBag.UserRole</p>
+            <a href="/User/Details/@ViewBag.UserId">Переглянути профіль</a>
+        </div>
+
+        <div>
+            @if (ViewBag.UserRole == "Admin")
+            {
+                <a href="/Home/AdminDashboard" class="btn btn-info">Панель адміністратора</a>
+            }
+            else if (ViewBag.UserRole == "Student")
+            {
+                <a href="/Home/StudentDashboard" class="btn btn-success">Панель студента</a>
+            }
+            else if (ViewBag.UserRole == "Mentor")
+            {
+                <a href="/Home/MentorDashboard" class="btn btn-warning">Панель ментора</a>
+            }
+        </div>
+    }
+    <div class="d-flex gap-2 flex-sm-row flex-column justify-content-center">
+        <a class="btn btn-primary" href="/Course/Index">Переглянути курси</a>
+        <a class="btn btn-success" href="/Auth/Register">Зареєструватися</a>
+        <a class="btn btn-outline-secondary" href="/Auth/Login">Увійти</a>
+    </div>
+</div>
+
+<hr />
+
+<div class="text-center">
+    <h4>Доступні можливості:</h4>
+    <ul class="list-unstyled">
+        <li>📖 Ознайомлюйтеся з навчальними програмами.</li>
+        <li>✍️ Записуйтеся на курси та проходьте вправи.</li>
+        <li>🏅 Отримуйте сертифікати після завершення курсу.</li>
+        <li>🗨️ Взаємодійте з менторами та іншими студентами.</li>
+    </ul>
+</div>

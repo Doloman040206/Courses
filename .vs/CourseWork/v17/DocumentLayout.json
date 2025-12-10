@@ -1,0 +1,293 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u041C\u0430\u043A\u0441\u0438\u043C\\OneDrive\\Desktop\\CourseWork  TRPZ\\CourseWork\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C83B86C7-794F-4130-AAB3-7BABE7C62A4A}|CourseWork\\CourseWork.csproj|c:\\users\\\u043C\u0430\u043A\u0441\u0438\u043C\\onedrive\\desktop\\coursework  trpz\\coursework\\coursework\\controllers\\assignmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C83B86C7-794F-4130-AAB3-7BABE7C62A4A}|CourseWork\\CourseWork.csproj|solutionrelative:coursework\\controllers\\assignmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C83B86C7-794F-4130-AAB3-7BABE7C62A4A}|CourseWork\\CourseWork.csproj|c:\\users\\\u043C\u0430\u043A\u0441\u0438\u043C\\onedrive\\desktop\\coursework  trpz\\coursework\\coursework\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C83B86C7-794F-4130-AAB3-7BABE7C62A4A}|CourseWork\\CourseWork.csproj|solutionrelative:coursework\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C83B86C7-794F-4130-AAB3-7BABE7C62A4A}|CourseWork\\CourseWork.csproj|c:\\users\\\u043C\u0430\u043A\u0441\u0438\u043C\\onedrive\\desktop\\coursework  trpz\\coursework\\coursework\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C83B86C7-794F-4130-AAB3-7BABE7C62A4A}|CourseWork\\CourseWork.csproj|solutionrelative:coursework\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C83B86C7-794F-4130-AAB3-7BABE7C62A4A}|CourseWork\\CourseWork.csproj|c:\\users\\\u043C\u0430\u043A\u0441\u0438\u043C\\onedrive\\desktop\\coursework  trpz\\coursework\\coursework\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C83B86C7-794F-4130-AAB3-7BABE7C62A4A}|CourseWork\\CourseWork.csproj|solutionrelative:coursework\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C83B86C7-794F-4130-AAB3-7BABE7C62A4A}|CourseWork\\CourseWork.csproj|c:\\users\\\u043C\u0430\u043A\u0441\u0438\u043C\\onedrive\\desktop\\coursework  trpz\\coursework\\coursework\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C83B86C7-794F-4130-AAB3-7BABE7C62A4A}|CourseWork\\CourseWork.csproj|solutionrelative:coursework\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C83B86C7-794F-4130-AAB3-7BABE7C62A4A}|CourseWork\\CourseWork.csproj|c:\\users\\\u043C\u0430\u043A\u0441\u0438\u043C\\onedrive\\desktop\\coursework  trpz\\coursework\\coursework\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C83B86C7-794F-4130-AAB3-7BABE7C62A4A}|CourseWork\\CourseWork.csproj|solutionrelative:coursework\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C83B86C7-794F-4130-AAB3-7BABE7C62A4A}|CourseWork\\CourseWork.csproj|c:\\users\\\u043C\u0430\u043A\u0441\u0438\u043C\\onedrive\\desktop\\coursework  trpz\\coursework\\coursework\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C83B86C7-794F-4130-AAB3-7BABE7C62A4A}|CourseWork\\CourseWork.csproj|solutionrelative:coursework\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C83B86C7-794F-4130-AAB3-7BABE7C62A4A}|CourseWork\\CourseWork.csproj|c:\\users\\\u043C\u0430\u043A\u0441\u0438\u043C\\onedrive\\desktop\\coursework  trpz\\coursework\\coursework\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C83B86C7-794F-4130-AAB3-7BABE7C62A4A}|CourseWork\\CourseWork.csproj|solutionrelative:coursework\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C83B86C7-794F-4130-AAB3-7BABE7C62A4A}|CourseWork\\CourseWork.csproj|c:\\users\\\u043C\u0430\u043A\u0441\u0438\u043C\\onedrive\\desktop\\coursework  trpz\\coursework\\coursework\\views\\assignments\\myassignments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C83B86C7-794F-4130-AAB3-7BABE7C62A4A}|CourseWork\\CourseWork.csproj|solutionrelative:coursework\\views\\assignments\\myassignments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C83B86C7-794F-4130-AAB3-7BABE7C62A4A}|CourseWork\\CourseWork.csproj|c:\\users\\\u043C\u0430\u043A\u0441\u0438\u043C\\onedrive\\desktop\\coursework  trpz\\coursework\\coursework\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C83B86C7-794F-4130-AAB3-7BABE7C62A4A}|CourseWork\\CourseWork.csproj|solutionrelative:coursework\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C83B86C7-794F-4130-AAB3-7BABE7C62A4A}|CourseWork\\CourseWork.csproj|c:\\users\\\u043C\u0430\u043A\u0441\u0438\u043C\\onedrive\\desktop\\coursework  trpz\\coursework\\coursework\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C83B86C7-794F-4130-AAB3-7BABE7C62A4A}|CourseWork\\CourseWork.csproj|solutionrelative:coursework\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C83B86C7-794F-4130-AAB3-7BABE7C62A4A}|CourseWork\\CourseWork.csproj|c:\\users\\\u043C\u0430\u043A\u0441\u0438\u043C\\onedrive\\desktop\\coursework  trpz\\coursework\\coursework\\views\\course\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C83B86C7-794F-4130-AAB3-7BABE7C62A4A}|CourseWork\\CourseWork.csproj|solutionrelative:coursework\\views\\course\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C83B86C7-794F-4130-AAB3-7BABE7C62A4A}|CourseWork\\CourseWork.csproj|c:\\users\\\u043C\u0430\u043A\u0441\u0438\u043C\\onedrive\\desktop\\coursework  trpz\\coursework\\coursework\\views\\assignments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C83B86C7-794F-4130-AAB3-7BABE7C62A4A}|CourseWork\\CourseWork.csproj|solutionrelative:coursework\\views\\assignments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C83B86C7-794F-4130-AAB3-7BABE7C62A4A}|CourseWork\\CourseWork.csproj|c:\\users\\\u043C\u0430\u043A\u0441\u0438\u043C\\onedrive\\desktop\\coursework  trpz\\coursework\\coursework\\models\\assignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C83B86C7-794F-4130-AAB3-7BABE7C62A4A}|CourseWork\\CourseWork.csproj|solutionrelative:coursework\\models\\assignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C83B86C7-794F-4130-AAB3-7BABE7C62A4A}|CourseWork\\CourseWork.csproj|c:\\users\\\u043C\u0430\u043A\u0441\u0438\u043C\\onedrive\\desktop\\coursework  trpz\\coursework\\coursework\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C83B86C7-794F-4130-AAB3-7BABE7C62A4A}|CourseWork\\CourseWork.csproj|solutionrelative:coursework\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C83B86C7-794F-4130-AAB3-7BABE7C62A4A}|CourseWork\\CourseWork.csproj|c:\\users\\\u043C\u0430\u043A\u0441\u0438\u043C\\onedrive\\desktop\\coursework  trpz\\coursework\\coursework\\views\\home\\studentdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C83B86C7-794F-4130-AAB3-7BABE7C62A4A}|CourseWork\\CourseWork.csproj|solutionrelative:coursework\\views\\home\\studentdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C83B86C7-794F-4130-AAB3-7BABE7C62A4A}|CourseWork\\CourseWork.csproj|c:\\users\\\u043C\u0430\u043A\u0441\u0438\u043C\\onedrive\\desktop\\coursework  trpz\\coursework\\coursework\\views\\assignments\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C83B86C7-794F-4130-AAB3-7BABE7C62A4A}|CourseWork\\CourseWork.csproj|solutionrelative:coursework\\views\\assignments\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u043A\u0441\u0438\u043C\\OneDrive\\Desktop\\CourseWork  TRPZ\\CourseWork\\CourseWork\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CourseWork\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u043A\u0441\u0438\u043C\\OneDrive\\Desktop\\CourseWork  TRPZ\\CourseWork\\CourseWork\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CourseWork\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-25T07:51:08.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u043A\u0441\u0438\u043C\\OneDrive\\Desktop\\CourseWork  TRPZ\\CourseWork\\CourseWork\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "CourseWork\\Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u043A\u0441\u0438\u043C\\OneDrive\\Desktop\\CourseWork  TRPZ\\CourseWork\\CourseWork\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "CourseWork\\Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-25T07:51:15.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u043A\u0441\u0438\u043C\\OneDrive\\Desktop\\CourseWork  TRPZ\\CourseWork\\CourseWork\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "CourseWork\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u043A\u0441\u0438\u043C\\OneDrive\\Desktop\\CourseWork  TRPZ\\CourseWork\\CourseWork\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "CourseWork\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAACsAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-26T07:00:06.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u043A\u0441\u0438\u043C\\OneDrive\\Desktop\\CourseWork  TRPZ\\CourseWork\\CourseWork\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "CourseWork\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u043A\u0441\u0438\u043C\\OneDrive\\Desktop\\CourseWork  TRPZ\\CourseWork\\CourseWork\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "CourseWork\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAACIAAAAAAAAAAADwvy0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-25T07:12:41.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MyAssignments.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u043A\u0441\u0438\u043C\\OneDrive\\Desktop\\CourseWork  TRPZ\\CourseWork\\CourseWork\\Views\\Assignments\\MyAssignments.cshtml",
+              "RelativeDocumentMoniker": "CourseWork\\Views\\Assignments\\MyAssignments.cshtml",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u043A\u0441\u0438\u043C\\OneDrive\\Desktop\\CourseWork  TRPZ\\CourseWork\\CourseWork\\Views\\Assignments\\MyAssignments.cshtml",
+              "RelativeToolTip": "CourseWork\\Views\\Assignments\\MyAssignments.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-25T06:42:11.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u043A\u0441\u0438\u043C\\OneDrive\\Desktop\\CourseWork  TRPZ\\CourseWork\\CourseWork\\Views\\Assignments\\Index.cshtml",
+              "RelativeDocumentMoniker": "CourseWork\\Views\\Assignments\\Index.cshtml",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u043A\u0441\u0438\u043C\\OneDrive\\Desktop\\CourseWork  TRPZ\\CourseWork\\CourseWork\\Views\\Assignments\\Index.cshtml",
+              "RelativeToolTip": "CourseWork\\Views\\Assignments\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-25T06:40:00.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u043A\u0441\u0438\u043C\\OneDrive\\Desktop\\CourseWork  TRPZ\\CourseWork\\CourseWork\\Views\\Assignments\\Details.cshtml",
+              "RelativeDocumentMoniker": "CourseWork\\Views\\Assignments\\Details.cshtml",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u043A\u0441\u0438\u043C\\OneDrive\\Desktop\\CourseWork  TRPZ\\CourseWork\\CourseWork\\Views\\Assignments\\Details.cshtml",
+              "RelativeToolTip": "CourseWork\\Views\\Assignments\\Details.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAuwB0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-25T06:39:50.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Assignment.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u043A\u0441\u0438\u043C\\OneDrive\\Desktop\\CourseWork  TRPZ\\CourseWork\\CourseWork\\Models\\Assignment.cs",
+              "RelativeDocumentMoniker": "CourseWork\\Models\\Assignment.cs",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u043A\u0441\u0438\u043C\\OneDrive\\Desktop\\CourseWork  TRPZ\\CourseWork\\CourseWork\\Models\\Assignment.cs",
+              "RelativeToolTip": "CourseWork\\Models\\Assignment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T09:54:26.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u043A\u0441\u0438\u043C\\OneDrive\\Desktop\\CourseWork  TRPZ\\CourseWork\\CourseWork\\Program.cs",
+              "RelativeDocumentMoniker": "CourseWork\\Program.cs",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u043A\u0441\u0438\u043C\\OneDrive\\Desktop\\CourseWork  TRPZ\\CourseWork\\CourseWork\\Program.cs",
+              "RelativeToolTip": "CourseWork\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T09:32:22.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u043A\u0441\u0438\u043C\\OneDrive\\Desktop\\CourseWork  TRPZ\\CourseWork\\CourseWork\\Controllers\\CourseController.cs",
+              "RelativeDocumentMoniker": "CourseWork\\Controllers\\CourseController.cs",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u043A\u0441\u0438\u043C\\OneDrive\\Desktop\\CourseWork  TRPZ\\CourseWork\\CourseWork\\Controllers\\CourseController.cs",
+              "RelativeToolTip": "CourseWork\\Controllers\\CourseController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAwDcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T06:19:51.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u043A\u0441\u0438\u043C\\OneDrive\\Desktop\\CourseWork  TRPZ\\CourseWork\\CourseWork\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CourseWork\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u043A\u0441\u0438\u043C\\OneDrive\\Desktop\\CourseWork  TRPZ\\CourseWork\\CourseWork\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CourseWork\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAAGAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T09:57:16.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u043A\u0441\u0438\u043C\\OneDrive\\Desktop\\CourseWork  TRPZ\\CourseWork\\CourseWork\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "CourseWork\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u043A\u0441\u0438\u043C\\OneDrive\\Desktop\\CourseWork  TRPZ\\CourseWork\\CourseWork\\Controllers\\UserController.cs",
+              "RelativeToolTip": "CourseWork\\Controllers\\UserController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAALQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T08:28:26.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u043A\u0441\u0438\u043C\\OneDrive\\Desktop\\CourseWork  TRPZ\\CourseWork\\CourseWork\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "CourseWork\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u043A\u0441\u0438\u043C\\OneDrive\\Desktop\\CourseWork  TRPZ\\CourseWork\\CourseWork\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "CourseWork\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwH8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T07:38:03.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AssignmentsController.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u043A\u0441\u0438\u043C\\OneDrive\\Desktop\\CourseWork  TRPZ\\CourseWork\\CourseWork\\Controllers\\AssignmentsController.cs",
+              "RelativeDocumentMoniker": "CourseWork\\Controllers\\AssignmentsController.cs",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u043A\u0441\u0438\u043C\\OneDrive\\Desktop\\CourseWork  TRPZ\\CourseWork\\CourseWork\\Controllers\\AssignmentsController.cs",
+              "RelativeToolTip": "CourseWork\\Controllers\\AssignmentsController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADMAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T07:02:10.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u043A\u0441\u0438\u043C\\OneDrive\\Desktop\\CourseWork  TRPZ\\CourseWork\\CourseWork\\Models\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "CourseWork\\Models\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u043A\u0441\u0438\u043C\\OneDrive\\Desktop\\CourseWork  TRPZ\\CourseWork\\CourseWork\\Models\\ApplicationDbContext.cs",
+              "RelativeToolTip": "CourseWork\\Models\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T06:23:21.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u043A\u0441\u0438\u043C\\OneDrive\\Desktop\\CourseWork  TRPZ\\CourseWork\\CourseWork\\Views\\Course\\Index.cshtml",
+              "RelativeDocumentMoniker": "CourseWork\\Views\\Course\\Index.cshtml",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u043A\u0441\u0438\u043C\\OneDrive\\Desktop\\CourseWork  TRPZ\\CourseWork\\CourseWork\\Views\\Course\\Index.cshtml",
+              "RelativeToolTip": "CourseWork\\Views\\Course\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-24T06:40:34.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "StudentDashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u041C\u0430\u043A\u0441\u0438\u043C\\OneDrive\\Desktop\\CourseWork  TRPZ\\CourseWork\\CourseWork\\Views\\Home\\StudentDashboard.cshtml",
+              "RelativeDocumentMoniker": "CourseWork\\Views\\Home\\StudentDashboard.cshtml",
+              "ToolTip": "C:\\Users\\\u041C\u0430\u043A\u0441\u0438\u043C\\OneDrive\\Desktop\\CourseWork  TRPZ\\CourseWork\\CourseWork\\Views\\Home\\StudentDashboard.cshtml",
+              "RelativeToolTip": "CourseWork\\Views\\Home\\StudentDashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-24T11:43:28.166Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

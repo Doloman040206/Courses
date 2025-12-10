@@ -1,0 +1,41 @@
+@model CourseWork.Models.User
+
+@{
+    ViewData["Title"] = "Реєстрація";
+}
+
+<h1 class="text-center">@ViewData["Title"]</h1>
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <form asp-controller="Auth" asp-action="Register" method="post">
+                <div class="mb-3">
+                    <label asp-for="FirstName" class="form-label">Ім'я*</label>
+                    <input asp-for="FirstName" class="form-control" placeholder="Введіть ваше ім'я" required />
+                </div>
+                <div class="mb-3">
+                    <label asp-for="MiddleName" class="form-label">По батькові</label>
+                    <input asp-for="MiddleName" class="form-control" placeholder="Введіть ваше по батькові" />
+                </div>
+                <div class="mb-3">
+                    <label asp-for="LastName" class="form-label">Прізвище*</label>
+                    <input asp-for="LastName" class="form-control" placeholder="Введіть ваше прізвище" required />
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Email" class="form-label">Електронна пошта*</label>
+                    <input asp-for="Email" type="email" class="form-control" placeholder="example@email.com" required />
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Password" class="form-label">Пароль*</label>
+                    <input asp-for="Password" type="password" class="form-control" placeholder="Введіть пароль" required />
+                </div>
+                <!-- Роль за замовчуванням - Студент (приховане поле) -->
+                <input type="hidden" asp-for="RoleId" value="1" />
+                <div class="text-center mt-3">
+                    <button type="submit" class="btn btn-primary">Зареєструватися</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

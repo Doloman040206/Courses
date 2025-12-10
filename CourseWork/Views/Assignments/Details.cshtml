@@ -1,0 +1,30 @@
+@model CourseWork.Models.Assignment
+
+@{
+    ViewData["Title"] = "Деталі завдання";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div class="card mb-3">
+    <div class="card-body">
+        <h4>@Model.Title</h4>
+        <p><strong>Опис:</strong> @Model.Description</p>
+        <p><strong>Курс:</strong> @(Model.Course?.Title ?? "—")</p>
+        <p><strong>Термін:</strong> @Model.DueDate.ToString("yyyy-MM-dd")</p>
+        <p><strong>Обов'язкове:</strong> @(Model.IsRequired ? "Так" : "Ні")</p>
+        <p><strong>Виконано:</strong> @(Model.IsCompleted ? "Так" : "Ні")</p>
+        <p><strong>Виконавець:</strong> @(Model.User != null ? (Model.User.FirstName + " " + Model.User.LastName) : Model.UserId.ToString())</p>
+        <p>
+            <strong>Посилання на подання:</strong>
+            @(string.IsNullOrEmpty(Model.SubmissionUrl) ? "Немає" : Html.Raw($"<a href='{Model.SubmissionUrl}' target='_blank'>Переглянути</a>"))
+        </p>
+        <p><strong>Дата подання:</strong> @(Model.SubmissionDate.HasValue? Model.SubmissionDate.Value.ToString("yyyy-MM-dd HH:mm") : "—")</p>
+        <p><strong>Зворотній зв'язок:</strong> @(string.IsNullOrEmpty(Model.Feedback) ? "Немає" : Model.Feedback)</p>
+        <p><strong>Оцінка:</strong> @(Model.Grade.HasValue? Model.Grade.ToString() : "—")</p>
+    </div>
+</div>
+
+<div class="mb-3">
+    <a asp-action="Index" class="btn btn-secondary">Повернутись до списку</a>
+</div>

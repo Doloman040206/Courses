@@ -1,0 +1,44 @@
+@model CourseWork.Models.Course
+
+@{
+    ViewData["Title"] = "Delete Course";
+}
+
+<h1>Delete Course</h1>
+<h3>Ви впевнені, що хочете видалити цей курс?</h3>
+<div>
+    <h4>Деталі курсу:</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            Назва:
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+        <dt class="col-sm-2">
+            Опис:
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+        <dt class="col-sm-2">
+            Категорія:
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Category.Name)
+        </dd>
+        <dt class="col-sm-2">
+            Рівень:
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Level.Name)
+        </dd>
+    </dl>
+
+    <form asp-action="Delete" method="post">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Видалити" class="btn btn-danger" />
+        <a asp-action="Index" class="btn btn-secondary">Скасувати</a>
+    </form>
+</div>

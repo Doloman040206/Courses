@@ -1,0 +1,41 @@
+@model IEnumerable<CourseWork.Models.Assignment>
+
+@{
+    ViewData["Title"] = "Усі завдання";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p>
+    <a asp-controller="Assignments" asp-action="MyAssignments" class="btn btn-secondary">Мої завдання</a>
+</p>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Назва</th>
+            <th>Курс</th>
+            <th>Виконавець</th>
+            <th>Термін</th>
+            <th>Статус</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var a in Model)
+        {
+            <tr>
+                <td>@a.Id</td>
+                <td>@a.Title</td>
+                <td>@(a.Course?.Title ?? "—")</td>
+                <td>@(a.User != null ? (a.User.FirstName + " " + a.User.LastName) : a.UserId.ToString())</td>
+                <td>@a.DueDate.ToString("yyyy-MM-dd")</td>
+                <td>@(a.IsCompleted ? "Виконано" : "Не виконано")</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@a.Id" class="btn btn-sm btn-info">Деталі</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
